@@ -1,0 +1,29 @@
+uuid: 0f4ffbf9-2346-4ac1-912c-ca97431d2c84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.archv_img.field_media_image_1
+    - image.style.large
+    - media.type.archv_img
+  module:
+    - image
+id: media.archv_img.default
+targetEntityType: media
+bundle: archv_img
+mode: default
+content:
+  field_media_image_1:
+    label: visually_hidden
+    weight: 0
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

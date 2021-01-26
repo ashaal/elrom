@@ -1,0 +1,22 @@
+uuid: a2268ff8-80b5-4a8d-b7f3-6082764cfea6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - elromfe
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: elromfe_breadcrumbs
+theme: elromfe
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

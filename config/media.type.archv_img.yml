@@ -1,0 +1,14 @@
+uuid: dd4f8415-3680-40a9-9f23-57328fc2cc30
+langcode: en
+status: true
+dependencies: {  }
+id: archv_img
+label: 'Archive image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image_1
+field_map:
+  name: name

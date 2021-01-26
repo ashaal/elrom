@@ -1,0 +1,30 @@
+uuid: a23844a3-6224-461e-a9ed-f53718f58898
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.archv_img.field_media_image_1
+    - image.style.thumbnail
+    - media.type.archv_img
+  module:
+    - image
+id: media.archv_img.media_library
+targetEntityType: media
+bundle: archv_img
+mode: media_library
+content:
+  field_media_image_1:
+    weight: -50
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  name: true
+  path: true
+  status: true
+  uid: true

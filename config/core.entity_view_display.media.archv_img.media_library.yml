@@ -1,0 +1,30 @@
+uuid: 9ab70880-d989-4889-8156-93fedf42329e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.archv_img.field_media_image_1
+    - image.style.medium
+    - media.type.archv_img
+  module:
+    - image
+id: media.archv_img.media_library
+targetEntityType: media
+bundle: archv_img
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_image_1: true
+  name: true
+  uid: true
